@@ -1,0 +1,30 @@
+.card {
+
+    &__front {
+        background-image: url('../../data/brainstation.png');
+        background-position: center;
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        object-fit: cover;
+        outline: none;
+        margin: 10px;
+    }
+
+    &__img {
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        background-color: rgb(26,26,26);
+    }
+
+    &__back {
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+    }
+}
+
+.hide-card {
+    visibility: hidden;
+  }

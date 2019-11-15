@@ -1,0 +1,14 @@
+.gameover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.restart-button {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px 20px;
+    outline: none;
+    font-size: 24px;
+    margin: 50px 0;
+}
