@@ -18,7 +18,6 @@ export class App extends Component {
     event.preventDefault();
     const cardsId = event.target.id;
 
-    console.log('card id', cardsId);
     const newFlip = this.state.isFlipped.slice();
     this.setState({
         prevSelectedCard: this.state.shuffledCards[cardsId],
@@ -61,7 +60,7 @@ export class App extends Component {
         this.setState (prevState => ({
           isFlipped: flipBack
         }))
-      }, 1000);
+      }, 2000);
     }
   }
 
